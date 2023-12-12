@@ -1,11 +1,31 @@
-body {
-  background-color: white;
-  font-family: Raleway, Arial, sans-serif;
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
 }
 
-h1 {
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.special {
   font-size: 2rem;
-  text-align: center;
+  color: white;
+  min-height: 400px;
+  background-image: url(./images/special-carissa-gan.jpg);
+  background-repeat: no-repeat;
+  background-size: 1400px 600px;
+  background-position: center top;
+  border-radius: 10px;
+  padding: 20px;
+  object-fit: cover;
+}
+
+.special p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-top: 250px;
 }
 
 h2 {
@@ -17,13 +37,13 @@ header > img {
   display: block;
   width: 50%;
   height: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .nav-bar {
   list-style: none;
   text-align: center;
+  word-spacing: 0.5rem;
 }
 
 nav li {
@@ -32,6 +52,8 @@ nav li {
 
 section {
   display: flex;
+  border: 2px none;
+  justify-content: center;
 }
 
 article {
@@ -39,13 +61,27 @@ article {
 }
 
 article img {
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
   object-fit: cover;
+}
+
+.item {
+  width: 450px;
+  height: 450px;
+  background-color: rgb(223, 237, 241);
+  margin: 10px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  overflow: scroll;
 }
 
 footer {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
@@ -53,13 +89,16 @@ footer p {
 }
 
 footer img {
-  width: auto;
-  height: 5%;
-  display: flex;
+  width: 50px;
+  height: 100px;
 }
 
 a {
   text-decoration: none;
   color: rgb(6, 107, 196);
   font-weight: bold;
+}
+
+a:hover {
+  color: green;
 }
