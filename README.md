@@ -1,2 +1,2 @@
 # limoncello
-A Mediterranean-styled restaurant
+A Mediterranean-styled restaurant based on Meta's Little Lemon Portfolio Project.
