@@ -5,10 +5,12 @@ body {
 
 h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 header > img {
@@ -22,7 +24,6 @@ header > img {
 .nav-bar {
   list-style: none;
   text-align: center;
-  justify-content: ;
 }
 
 nav li {
@@ -37,6 +38,12 @@ article {
   flex: 1;
 }
 
+article img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
 footer {
   display: flex;
 }
@@ -49,4 +56,10 @@ footer img {
   width: auto;
   height: 5%;
   display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(6, 107, 196);
+  font-weight: bold;
 }
