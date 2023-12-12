@@ -1,3 +1,16 @@
+body {
+  background-color: khaki;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 header > img {
   display: block;
   margin-left: auto;
