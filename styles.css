@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -22,7 +22,7 @@ header > img {
 .nav-bar {
   list-style: none;
   text-align: center;
-  justify-content: space-between;
+  justify-content: ;
 }
 
 nav li {
@@ -35,4 +35,18 @@ section {
 
 article {
   flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer p {
+  flex: 1;
+}
+
+footer img {
+  width: auto;
+  height: 5%;
+  display: flex;
 }
