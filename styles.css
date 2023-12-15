@@ -52,6 +52,15 @@ article {
   padding: 30px;
 }
 
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+}
+
 article a {
   color: rgb(6, 107, 196);
   font-weight: bold;
@@ -65,9 +74,10 @@ article a {
   min-height: 400px;
   background-image: url(./images/special-carissa-gan.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px 600px;
+  background-size: 1400px 600px;
   background-position: center;
   padding-bottom: 0px;
+  margin: auto;
 }
 
 h1 {
