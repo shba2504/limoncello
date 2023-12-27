@@ -17,12 +17,6 @@ nav ul {
   word-spacing: 0.5rem;
 }
 
-nav ul {
-  list-style: none;
-  text-align: center;
-  word-spacing: 0.5rem;
-}
-
 nav li {
   display: inline-block;
 }
